@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(166, 214, 246);
+    color: white;}
+
+    body {
+      margin: 0;
+      font-family: 'Times New Roman', Times, serif;
+      background: #d2e9fc;
+      filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3));
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-behavior: smooth;
+    }
+
+    /* HEADER */
+    header {
+      background: linear-gradient(to right, #87CEFA, #B0E0E6);
+      color: rgb(255, 255, 255);
+      padding: 20px;
+      text-align: center;
+      font-size: 24px;
+      font-style: italic;
+      filter: drop-shadow(10px 10px 5px rgba(0,0,0,0.3));
+    }
+
+    /* MENU */
+    nav {
+      background: rgb(255, 255, 255);
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #a8e1fe;
+    }
+
+    /* CARDS */
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: rgb(255, 255, 255);
+      width: 250px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 20px;
+      transition: transform 0.3s;
+    }
+
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.2));
+    }
+
+    .card h3 {
+      margin: 10px 0;
+      color: #000000;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #000000;
+    }
+
+    .card button {
+      background: #98ddff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .card button:hover {
+      background: #98ddff;
+      filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.2));
+    }
+
+    /* FOOTER */
+    footer {
+      background: #174982;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px;
+      flex-wrap: wrap;
+    }
